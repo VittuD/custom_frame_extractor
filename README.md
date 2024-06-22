@@ -39,6 +39,7 @@ custom_frame_extractor/
 ├── run_extraction.sh
 ├── input_videos/
 └── output_frames/
+└── ...
 ```
 
 - **input_videos**: This folder will contain the videos you want to process.
