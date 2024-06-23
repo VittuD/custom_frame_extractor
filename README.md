@@ -75,6 +75,30 @@ output_frames/
     └── ...
 ```
 
+# Updating the Repository
+
+If there are updates to the repository, follow these steps to ensure you have the latest version of the scripts and other files.
+
+## Steps to Update
+
+1. **Navigate to the Local Repository**:
+   - Open a terminal and navigate to the local repository directory.
+     ```sh
+     cd path_to_your_local_repository
+     ```
+
+2. **Pull the Latest Changes**:
+   - Fetch and merge the latest changes from the remote repository.
+     ```sh
+     git pull origin main
+     ```
+
+3. **Pull the Latest Docker Image** (if necessary):
+   - If there were changes to the `Dockerfile` or other dependencies, pull the new Docker image.
+     ```sh
+     docker pull davidevitturini/frame-extractor
+     ```
+     
 ## Troubleshooting
 
 ### Common Issues
